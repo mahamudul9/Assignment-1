@@ -1,0 +1,159 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+}
+.menu-title{
+    background-color: white;
+    height: 50px;
+
+}
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+.menu{
+    list-style-type: none;
+    margin-right: 5%;
+    
+}
+.menu li{
+    display: inline;
+    margin: 2px 2px;
+    padding: 1px 1px;
+    float: right;  
+}
+.menu li a{
+    text-decoration: none;
+    color: #3C3C3C;
+}
+li a:hover{
+    background-color: #5D69E9;
+    color: aliceblue;
+    background-size: 30px;
+}
+.top{
+    color: #363958;
+    margin-left: 5%;
+    margin-top: 5%;
+    float: left;
+}
+.top h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+}
+#style{
+    color: #5D69E9;
+}
+
+.link-button{
+    background-image: linear-gradient(45deg, #5D69E9, #363958);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.top-video{
+    margin-top: 6%;
+    margin-left: 55%;
+}
+.upper-pic{
+    width: 40%;
+    height: 40%;
+    float: right;
+    margin-right: 5%;
+}
+#about, #portfolio, #channel{
+    height: 500px;
+}
+#contact{
+    height: 400px;
+}
+
+.middle-pic{
+    width: 40%;
+    height: 40%;
+    float: left;
+    margin-left: 5%;
+}
+.middle{
+    color: #363958;
+    margin-right: 5%;
+    margin-top: 5%;
+    float: right;
+    width: 40%;
+}
+.middle h1{
+    font-size: 48px;
+}
+#dl{
+    color: white;
+}
+#work{
+    height: 550px;
+    background-color: #E5E5E5;
+}
+.work-head h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    color: #363958;
+    text-align: center;
+}
+.img-style{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+.single-exp{   
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 10px;
+    width: 25%;
+    margin-left: 5%;
+    float: left;
+    align-items: center;
+}
+.single-exp h2{
+    color: #363958;
+    text-align: center;
+}
+.single-exp p{
+    color: dimgray;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+}
+.last{
+    height: 400px;
+    background-image: url("shapes/Group_33094_1.png");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bottom-left{
+    color: white;    
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    float: left;  
+    padding-left: 25%;
+    padding-top: 9%;   
+}
+.bottom-right{
+    padding-right: 25%;
+    padding-top: 15%;
+    float: right;
+}
+.foot-logo{
+    height: 2%;
+    width: 2%;
+    padding-right: 1%;
+}
+center h2{
+    font-family: 'Bebas Neue', cursive;
+    color: #5D69E9;
+}
+center a{
+    text-decoration: none;
+    color: #363958;
+    font-size: xx-large;  
+}
